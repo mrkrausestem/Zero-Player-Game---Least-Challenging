@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		847A06BB2B69362800BE95C6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06BA2B69362800BE95C6 /* main.swift */; };
+		847A06C42B69368D00BE95C6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06C12B69368D00BE95C6 /* Helpers.swift */; };
+		847A06C52B69368D00BE95C6 /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06C22B69368D00BE95C6 /* Monsters.swift */; };
+		847A06C62B69368D00BE95C6 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A06C32B69368D00BE95C6 /* Heroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		847A06B72B69362800BE95C6 /* Zero Player Game - Least Challenging */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zero Player Game - Least Challenging"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847A06BA2B69362800BE95C6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		847A06C12B69368D00BE95C6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		847A06C22B69368D00BE95C6 /* Monsters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		847A06C32B69368D00BE95C6 /* Heroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		847A06B92B69362800BE95C6 /* Zero Player Game - Least Challenging */ = {
 			isa = PBXGroup;
 			children = (
+				847A06C12B69368D00BE95C6 /* Helpers.swift */,
+				847A06C32B69368D00BE95C6 /* Heroes.swift */,
+				847A06C22B69368D00BE95C6 /* Monsters.swift */,
 				847A06BA2B69362800BE95C6 /* main.swift */,
 			);
 			path = "Zero Player Game - Least Challenging";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				847A06BB2B69362800BE95C6 /* main.swift in Sources */,
+				847A06C62B69368D00BE95C6 /* Heroes.swift in Sources */,
+				847A06C42B69368D00BE95C6 /* Helpers.swift in Sources */,
+				847A06C52B69368D00BE95C6 /* Monsters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
